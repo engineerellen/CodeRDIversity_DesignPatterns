@@ -67,8 +67,13 @@ namespace DesignPatterns
         {
             AnimalSingleton animal = AnimalSingleton.InstanciaAnimalSingleton;
 
+            AnimalSingleton animal1 = AnimalSingleton.InstanciaAnimalSingleton;
+
+
             // Chamando um método da instância
             animal.EmitirSom();
+
+            animal1.EmitirSom();
         }
     }
 }
