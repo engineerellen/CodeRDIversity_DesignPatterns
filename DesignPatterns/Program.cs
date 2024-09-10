@@ -27,14 +27,14 @@ namespace DesignPatterns
             IAnimal gato = new Gato();
 
             // Criando a Façade
-            AnimalFacade animalFacade = new AnimalFacade();
+            BabaDePet_Facade babaDePet = new BabaDePet_Facade();
 
             // Usando a Façade para simplificar a interação
             Console.WriteLine("Cuidados com o cachorro:");
-            animalFacade.CuidadosComAnimal(cachorro);
+            babaDePet.CuidadosComAnimal(cachorro);
 
             Console.WriteLine("\nCuidados com o gato:");
-            animalFacade.CuidadosComAnimal(gato);
+            babaDePet.CuidadosComAnimal(gato);
         }
 
         private static void ChamarFactoryMethod()

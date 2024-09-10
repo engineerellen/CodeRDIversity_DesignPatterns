@@ -50,7 +50,7 @@
     <Compile Include="FactoryMethod\CachorroFactoryMethod.cs" />
     <Compile Include="FactoryMethod\GatoFactoryMethod.cs" />
     <Compile Include="Façade\AlimentarAnimal.cs" />
-    <Compile Include="Façade\AnimalFacade.cs" />
+    <Compile Include="Façade\BabaDePet_Facade.cs" />
     <Compile Include="Façade\BrincarComAnimal.cs" />
     <Compile Include="Façade\ColocarAnimalParaDormir.cs" />
     <Compile Include="Model\Cachorro.cs" />

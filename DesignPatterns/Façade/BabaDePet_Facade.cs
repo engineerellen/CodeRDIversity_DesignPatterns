@@ -2,13 +2,13 @@
 
 namespace DesignPatterns.Façade
 {
-    internal class AnimalFacade
+    internal class BabaDePet_Facade
     {
         private readonly AlimentarAnimal _alimentarAnimal;
         private readonly BrincarComAnimal _brincarComAnimal;
         private readonly ColocarAnimalParaDormir _colocarParaDormir;
 
-        public AnimalFacade()
+        public BabaDePet_Facade()
         {
             _alimentarAnimal = new AlimentarAnimal();
             _brincarComAnimal = new BrincarComAnimal();
