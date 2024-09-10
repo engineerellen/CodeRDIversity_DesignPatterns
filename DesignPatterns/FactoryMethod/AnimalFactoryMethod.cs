@@ -6,5 +6,14 @@ namespace DesignPatterns.FactoryMethod
     {
         // Método abstrato que as subclasses devem implementar para criar um animal
         public abstract IAnimal CriarAnimal();
+
+        public virtual string Comer() =>
+            "grrr!";
+
+        public virtual string Andar()
+        {
+            return "Está andando!";
+        }
+
     }
 }

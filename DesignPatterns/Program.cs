@@ -43,11 +43,13 @@ namespace DesignPatterns
             AnimalFactoryMethod cachorroFactory = new CachorroFactoryMethod();
             IAnimal cachorro = cachorroFactory.CriarAnimal();
             cachorro.EmitirSom();
+            Console.WriteLine(cachorroFactory.Andar());
 
             // Criando uma fábrica de gatos
             AnimalFactoryMethod gatoFactory = new GatoFactoryMethod();
             IAnimal gato = gatoFactory.CriarAnimal();
             gato.EmitirSom();
+            Console.WriteLine(gatoFactory.Andar());
         }
 
         private static void ChamarAbstractFactory()

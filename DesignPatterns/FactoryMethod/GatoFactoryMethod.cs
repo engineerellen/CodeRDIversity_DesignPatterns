@@ -1,15 +1,16 @@
 ﻿using DesignPatterns.AbstractFactory;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DesignPatterns.FactoryMethod
 {
     internal class GatoFactoryMethod : AnimalFactoryMethod
     {
-        public override IAnimal CriarAnimal()=>
+        public override IAnimal CriarAnimal() =>
             new Gato();
+
+        public override string Andar() =>
+            "Gato Anda";
+
+        public string Ronronar() =>
+            "Prrr!";
     }
 }
